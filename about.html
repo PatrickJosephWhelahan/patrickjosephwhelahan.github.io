@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Page Basics
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <title>Patrick Joseph Whelahan, Product Designer</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Product designer, Kown as Joe, currently at IBM.">
+  <meta name="author" content="Patrick Joseph Whelahan">
+  <meta name="theme-color" content="#000000">
+
+  <!-- Global site tag (gtag.js) - Google Analytics
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+   <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans|IBM+Plex+Sans+Condensed|IBM+Plex+Serif&display=swap" rel="stylesheet">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+    <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="scripts/hoverStates.js"></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+
+</head>
+
+<body>
+ <!-- On load fade in page -->
+<script>
+$(document).ready(function() {
+    $("body").css("display", "none");
+    $("body").fadeIn(200);
+    $("a.transition").click(function(event){
+        event.preventDefault();
+        linkLocation = this.href;
+        $("body").fadeOut(100, redirectPage);
+    });
+    function redirectPage() {
+        window.location = linkLocation;
+      }
+});
+</script>
+
+<!-- Navigation Menu -->
+<div class="container">
+  <section class="header">
+    <div class="row" id="menu">
+      <div class="onecolumn" style="margin-top: 10%; margin-bottom:25%;">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="transition, navbar-link" href="index.html">PATRICK JOSEPH WHELAHAN</a></li>
+          <li class="navbar-item"><a class="transition, navbar-link" id="active" href="about.html">MORE INFO</a></li>
+            <li class="navbar-item"><a class="transition, navbar-link"  href="resume.html">MY RESUME</a></li>
+          
+        </ul>
+      </div>
+    </div>
+
+<!-- Site heading -->
+  <div class="row">
+    <div class="onecolumn" style="margin-bottom:5%;">
+        <p>Patrick Joseph, known as <b>Joe</b> is a Product Designer based in Dublin, Ireland. Joe currently works at IBM Design where he is responsible for all phases of the UX process, from research, concepting and information architecture to wireframing, prototyping,  storytelling, and facilitation of <a class="transition, about-link" href="https://www.dcu.ie" class="about-link" target="_blank">Enterprise Design Thinking.</a> 
+      <br><br>
+     At IBM he collaborates with fellow designers, developers and product owners to create products and experiences for a wide range of clients.
+
+            <div class="rowthumbs">
+  <div class="column">
+    <img src="images/EY_logo.png" alt="Snow" style="width:100%">
+  </div>
+
+  <div class="column">
+    <img src="images/NBCU.png" alt="Forest" style="width:100%">
+  </div>
+
+  <div class="column">
+    <img src="images/UMB_logo.png" alt="Mountains" style="width:100%">
+     </div>
+
+    <div class="column">
+    <img src="images/bosch_logo.png" alt="Mountains" style="width:100%">
+  </div>
+
+  <div class="column">
+    <img src="images/Walgreens_logo.png" alt="Mountains" style="width:100%">
+  </div>
+
+  <div class="column">
+    <img src="images/cvshealth_logo.png" alt="Mountains" style="width:100%">
+  </div>
+
+  <div class="column">
+    <img src="images/citizensbank_logo.png" alt="Mountains" style="width:100%">
+  </div>
+
+  <div class="column">
+    <img src="images/arago_logo.png" alt="Mountains" style="width:100%">
+  </div>
+
+  </div> 
+        <br><br>
+            
+      <p>Joe lectures at <a class="transition, about-link" href="https://www.dcu.ie" class="about-link" target="_blank">Dublin City University</a> specilaising in UX and UI module delivery for under- and post-grad students.
+          <br><br>
+     
+           He received a BSc (1st Class Honours) in Digital Technology Design and Innovation from <a class="transition, about-link" href="https://www.dcu.ie" class="about-link" target="_blank">Dublin Institute of Tecnholgy in 2015.</a>
+      <br><br>
+     </p>
+        
+  </div>
+    
+      
+
+
+</div>
+
+    
+
+</body>
+</html>
